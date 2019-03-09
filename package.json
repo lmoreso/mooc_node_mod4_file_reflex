@@ -8,7 +8,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "node main.js",
+    "start": "node mod4_file_reflex.js",
     "checks": "node tests/launcher.js",
     "zip": "node tests/compress.js"
   },
@@ -17,5 +17,8 @@
     "fs-extra": "^6.0.1",
     "mocha": "^5.2.0",
     "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1"
   }
 }
